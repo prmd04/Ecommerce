@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Original CSS with color-adjust property */
+.element {
+  color: red;
+  color-adjust: exact;
+}
+
+/* Updated CSS with print-color-adjust property */
+.element {
+  color: red;
+  print-color-adjust: exact;
+}
+
