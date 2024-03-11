@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { Badge, Container, Dropdown, Navbar } from "react-bootstrap";
 import Cart from "../Cart/Cart";
+import { ctx } from "../Store/Context";
 
 const Header = () => {
+  const CartCtx = useContext(ctx);
+  const len = CartCtx.state.items.length;
   return (
     <Navbar bg="dark" variant="dark">
       <Container className="flex">
@@ -13,7 +16,7 @@ const Header = () => {
         <Dropdown alignRight={false} style={{ width: "300px" }}>
           <Dropdown.Toggle variant="success">
             <FaShoppingCart color="white" fontSize="25px" />
-            <Badge style={{ margin: 5, fontSize: 15 }}>{0}</Badge>
+            <Badge style={{ margin: 5, fontSize: 15 }}>{len}</Badge>
           </Dropdown.Toggle>
           <Dropdown.Menu
             style={{
