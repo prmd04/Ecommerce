@@ -3,11 +3,12 @@ import { Card } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import { ctx } from '../Store/Context';
 
-const ProductCard = ({ title, price, imageUrl }) => {
+const ProductCard = ({ id,title, price, imageUrl }) => {
   const context = useContext(ctx);
 
   const addToCardButton = () => {
     const newItem = {
+      id:id,
       title: title,
       price: price,
       imageUrl: imageUrl,

@@ -1,25 +1,10 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.link{
+  text-decoration: none; /* Remove underline */
+  color: inherit;
+ 
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.link:hover{
+  color:inherit;
 }
-/* Original CSS with color-adjust property */
-.element {
-  color: red;
-  color-adjust: exact;
-}
-
-/* Updated CSS with print-color-adjust property */
-.element {
-  color: red;
-  print-color-adjust: exact;
-}
+   /* Inherit text color */
 
