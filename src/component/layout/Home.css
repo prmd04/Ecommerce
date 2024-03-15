@@ -1,0 +1,68 @@
+.firstDiv{
+  height: 300px;
+  background-color: #777777;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.firstDiv h1{
+  font: bolder;
+  font-size: 80px;
+  color: white;
+}
+
+.middle{
+  border: 2px solid #56CCF2;
+  margin: 15px;
+}
+.middle p{
+  margin-top: 2px;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+.icon{
+  margin: 15px;
+}
+
+.playbutton{
+  color: #56CCF2;
+  font-size: 40px;
+  border: 2px solid #56CCF2;
+  border-radius: 50%;
+  padding: 10px;
+}
+.footer{
+  height: 200px;
+  background-color: #56CCF2;
+}
+
+.middleDiv{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middleDiv h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  color: black;
+
+}
+.thirdDiv{
+  width: 70%;
+  margin: 10px auto;
+}
+.foot{
+  margin-top: 80px;
+  height: 100px;
+  background-color: #56CCF2;
+}
+.foot h2{
+  color: white;
+  font-size: 60px;
+  padding: 10px;
+  margin-left: 100px;
+}
